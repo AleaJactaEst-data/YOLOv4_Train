@@ -5,10 +5,10 @@ Le fichier config .cfg à utiliser est dans le dossier cfg et est yolov4_test.cf
 Dans le code entrainement, on peut changer des paramètres du .cfg (subdivision, width, ...) et l'adaptation au nombre de classes est automatique.
 
 Le fichier de poids .weights est à trouver sur le drive dans weights, c'est yolov4_most_best.weights. Le fichier étant trop gros pour Github.
-Les poids actuellement dans le dossier sont les poids de modèle à 2 classes.
+Les poids actuellement dans le dossier sont les poids du modèle à 2 classes.
 
-Les images sont à trouver dans le dossier images, les images tests d'Internet (pas de la base Google) sont à trouver dans image_test.
-Les dossier obj et test sont utilisé mais leurs contenus sont vidés avant l'entrainement puis remis.
+Les images sont à trouver dans le dossier images. Les images tests d'Internet (pas de la base Google) sont à trouver dans image_test.
+Les dossier obj et test sont utilisés mais leurs contenus sont vidés avant l'entrainement puis rempli des imges obj et test qu'il faut.
 
 train.txt et test.txt sont des exemples de fichiers train.txt et test.txt, ils sont reécrit dans le code d'entrainement.
 
