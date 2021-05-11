@@ -1,7 +1,7 @@
 # YOLOv4_Train
 Dossier pour entrainer le modèle Yolo sur notre base d'apprentissage
 
-Le fichier config .cfg à utiliser est dans le dossier cfg et est yolov4_test.cfg.
+Le fichier config .cfg à utiliser est dans le dossier cfg et est yolov4_test.cfg. L'autre est celui obtenu à partir du github du créateur de Darknet pour Yolo.
 Dans le code entrainement, on peut changer des paramètres du .cfg (subdivision, width, ...) et l'adaptation au nombre de classes est automatique.
 
 Le fichier de poids .weights est à trouver sur le drive dans weights, c'est yolov4_most_best.weights. Le fichier étant trop gros pour Github.
